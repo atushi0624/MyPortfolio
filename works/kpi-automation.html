@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>月末KPI集計の完全自動化 | 中澤 淳 ポートフォリオ</title>
+  <meta name="description" content="手作業4時間かかっていた月末KPI集計をRPAで完全自動化。わずか5秒で完了するシステムを構築した実績詳細。">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- ライトボックス オーバーレイ -->
+  <div id="lightbox-overlay" class="lightbox-overlay" role="dialog" aria-modal="true" aria-label="画像拡大表示">
+    <button class="lightbox-close" aria-label="閉じる">&times;</button>
+    <img class="lightbox-img" src="" alt="">
+  </div>
+
+  <!-- ========================================================
+       Header
+  ======================================================== -->
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="../index.html" class="header__logo" aria-label="トップへ戻る">
+        中澤 淳<span> | AI×RPA</span>
+      </a>
+      <nav class="nav" aria-label="グローバルナビゲーション">
+        <ul class="nav__list">
+          <li><a href="../index.html#works"    class="nav__link">実績</a></li>
+          <li><a href="../index.html#about"    class="nav__link">About</a></li>
+          <li><a href="../index.html#workflow" class="nav__link">進行フロー</a></li>
+          <li><a href="../index.html#contact"  class="nav__link btn btn--cta" style="padding:8px 20px;font-size:13px;">無料診断を申し込む</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <nav id="mobile-nav" class="nav--mobile" aria-label="モバイルナビゲーション">
+    <a href="../index.html#works"    class="nav__link">実績</a>
+    <a href="../index.html#about"    class="nav__link">About</a>
+    <a href="../index.html#workflow" class="nav__link">進行フロー</a>
+    <a href="../index.html#contact"  class="nav__link">無料診断を申し込む</a>
+  </nav>
+
+  <!-- ========================================================
+       Main
+  ======================================================== -->
+  <main class="works-detail">
+
+    <!-- ページ Hero -->
+    <div class="works-detail__hero">
+      <a href="../index.html#works" class="works-detail__back">← 実績一覧へ戻る</a>
+      <div>
+        <span class="works-detail__tag">RPA</span>
+      </div>
+      <h1 class="works-detail__title">月末KPI集計の完全自動化</h1>
+    </div>
+
+    <!-- 概要サマリー -->
+    <div class="works-detail__section">
+      <h2 class="works-detail__section-title">プロジェクト概要</h2>
+      <div class="works-detail__summary">
+        <div class="summary-card">
+          <div class="summary-card__label">課題</div>
+          <div class="summary-card__value">手作業で<br>月4時間</div>
+        </div>
+        <div class="summary-card">
+          <div class="summary-card__label">解決策</div>
+          <div class="summary-card__value">RPA<br>完全自動化</div>
+        </div>
+        <div class="summary-card">
+          <div class="summary-card__label">成果</div>
+          <div class="summary-card__value">わずか<br>5秒で完了</div>
+        </div>
+      </div>
+      <p style="margin-top:24px;line-height:1.9;color:var(--color-text-sub);">
+        月末になると経理・管理部門のスタッフが4時間かけて行っていたKPI集計作業を、
+        RPAツールによって完全自動化。複数システムをまたぐデータ収集・集計・フォーマット出力を
+        ワンクリックで実行できるフローを構築し、担当者の残業ゼロ・ヒューマンエラーゼロを実現しました。
+      </p>
+    </div>
+
+    <!-- インフォグラフィック -->
+    <div class="works-detail__section">
+      <h2 class="works-detail__section-title">自動化フロー（インフォグラフィック）</h2>
+      <p style="margin-bottom:16px;color:var(--color-text-sub);font-size:14px;">画像をクリックすると拡大表示されます。</p>
+      <div class="works-detail__infographic">
+        <img
+          src="../assets/images/RPA.jpg"
+          alt="月末KPI集計自動化フロー インフォグラフィック"
+          class="lightbox-trigger"
+          loading="lazy"
+        >
+      </div>
+    </div>
+
+    <!-- 動画 -->
+    <div class="works-detail__section">
+      <h2 class="works-detail__section-title">RPA 稼働デモ動画</h2>
+      <p style="margin-bottom:16px;color:var(--color-text-sub);font-size:14px;">実際にRPAが動作している様子をご覧いただけます。</p>
+      <div class="works-detail__video">
+        <video
+          controls
+          preload="metadata"
+          aria-label="RPA稼働デモ動画"
+        >
+          <source src="../assets/videos/RPA.mp4" type="video/mp4">
+          お使いのブラウザは動画の再生に対応していません。
+        </video>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="works-detail__cta">
+      <p>自社の集計・定型業務もRPAで自動化できます</p>
+      <a href="../index.html#contact" class="btn btn--cta">無料診断（オンライン60分）に申し込む</a>
+    </div>
+
+  </main>
+
+  <!-- ========================================================
+       Footer
+  ======================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p class="footer__copy">&copy; 2026 中澤 淳 All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

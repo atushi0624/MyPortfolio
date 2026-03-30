@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv \"RPA.jpg\" \"excelマクロ.png\" \"メール.png\" \"MANUS.png\" \"claudeCode.png\" \"LPページ.png\" \"CM動画.png\" \"assets/images/\")",
+      "Bash(mv \"Analog_to_Digital_Office_Transformation.mp4\" \"assets/videos/\")",
+      "Bash(BASE=\"C:/Users/atushi/OneDrive - office nakazawa/Claude Code/My-Portfolio\")",
+      "Bash(mv \"$BASE/RPA.jpg\" \"$BASE/assets/images/\")",
+      "Bash(mv \"$BASE/excelマクロ.png\" \"$BASE/assets/images/\")",
+      "Bash(mv \"$BASE/メール.png\" \"$BASE/assets/images/\")",
+      "Bash(mv \"$BASE/MANUS.png\" \"$BASE/assets/images/\")",
+      "Bash(powershell -Command \":*)",
+      "Bash(python3 -c \":*)",
+      "Bash(python move_assets.py)"
+    ]
+  }
+}
